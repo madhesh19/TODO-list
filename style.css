@@ -1,0 +1,55 @@
+body{
+    font: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, rgb(4, 11, 231), rgb(255, 0, 0));
+}
+
+input{
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 20px;
+  width: 60%;
+  margin-left: 15px;
+}
+
+button{
+  color: white;
+  background: linear-gradient(to right, rgb(18, 12, 12), rgb(58, 44, 44));
+  border-radius: 20px;
+  padding: 15px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+
+
+.done {
+  text-decoration: line-through rgb(252, 3, 3);
+}
+
+.deletebutton {
+  background: linear-gradient(to right, rgb(18, 12, 12), rgb(58, 44, 44));
+  color: #fff;
+  margin-left: 20ppx;
+  width: 100px;
+  padding: 10px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  background: linear-gradient(to right, rgb(46, 40, 40), rgb(68, 64, 64));
+  color: white;
+  margin: 20px 190px;
+  border-radius: 20px;
+  width: 60%; /* Adjust the value to control the width */
+}
+
+.center li{
+  margin-bottom: 15px;
+}
