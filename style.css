@@ -45,7 +45,7 @@ button{
   /*align-items: center;*/
   background: linear-gradient(to right, rgb(46, 40, 40), rgb(68, 64, 64));
   color: white;
-  margin: 20px 300px;
+  margin: 20px 190px;
   border-radius: 20px;
   width: 70%; /* Adjust the value to control the width */
 }
